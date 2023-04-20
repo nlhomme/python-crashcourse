@@ -14,3 +14,12 @@ print(f"{famous_person} once said: ''{famous_quote}''")
 
 #Oui bon a déjà testé tout ça dans le pense-bête
 
+#4-4
+numbers = list(range(1, 1_000_001))
+#for number in numbers:
+#    print(number)
+
+#4-5
+print(min(numbers))
+print(max(numbers))
+print(sum(numbers))
