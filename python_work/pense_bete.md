@@ -45,3 +45,24 @@ MAX_CONNECTIONS = 6
 ```
 
 L'instruction `import this` affiche The Zen of Python de Tim Peters, la philosophoe autour du dev Python
+
+`pop()` supprime le dernier élément d'une liste, mais permet quand même de jouer avec
+```
+>>> motorcycles = ['honda', 'yamaha', 'suzuki']
+>>> print(motorcycles)
+['honda', 'yamaha', 'suzuki']
+>>> popped_motorcycle = motorcycles.pop()
+>>> print(motorcycles)
+['honda', 'yamaha']
+>>> print(popped_motorcycle)
+suzuki
+```
+`pop(x)` où x est la position de pop souhaitée
+
+Suppresion possible d'un élément d'une liste par sa valeur
+```
+>>> motorcycles.remove('honda')
+>>> print(popped_motorcycle)
+suzuki
+```
+/!\ Ne supprime que la première occurence de la valeur spécifiée
